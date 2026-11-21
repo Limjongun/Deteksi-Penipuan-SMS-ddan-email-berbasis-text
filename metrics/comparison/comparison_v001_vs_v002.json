@@ -1,0 +1,141 @@
+{
+  "benchmark_dataset": "outputs/splits/test.csv (162 SMS Indonesia, bebas data leakage)",
+  "rows": [
+    {
+      "metrik": "accuracy",
+      "v001_thr_0.19": 0.962963,
+      "v002_thr_0.20": 0.895062,
+      "delta_v002_thr_vs_v001": -0.067901,
+      "v002_argmax_0.50": 0.950617,
+      "delta_v002_argmax_vs_v001": -0.012346
+    },
+    {
+      "metrik": "balanced_accuracy",
+      "v001_thr_0.19": 0.955266,
+      "v002_thr_0.20": 0.861777,
+      "delta_v002_thr_vs_v001": -0.093489,
+      "v002_argmax_0.50": 0.932946,
+      "delta_v002_argmax_vs_v001": -0.02232
+    },
+    {
+      "metrik": "macro_f1",
+      "v001_thr_0.19": 0.957996,
+      "v002_thr_0.20": 0.866905,
+      "delta_v002_thr_vs_v001": -0.091091,
+      "v002_argmax_0.50": 0.937431,
+      "delta_v002_argmax_vs_v001": -0.020565
+    },
+    {
+      "metrik": "weighted_f1",
+      "v001_thr_0.19": 0.963234,
+      "v002_thr_0.20": 0.89467,
+      "delta_v002_thr_vs_v001": -0.068564,
+      "v002_argmax_0.50": 0.950685,
+      "delta_v002_argmax_vs_v001": -0.012549
+    },
+    {
+      "metrik": "matthews_corrcoef",
+      "v001_thr_0.19": 0.941166,
+      "v002_thr_0.20": 0.843272,
+      "delta_v002_thr_vs_v001": -0.097894,
+      "v002_argmax_0.50": 0.923481,
+      "delta_v002_argmax_vs_v001": -0.017685
+    },
+    {
+      "metrik": "cohen_kappa",
+      "v001_thr_0.19": 0.940416,
+      "v002_thr_0.20": 0.831374,
+      "delta_v002_thr_vs_v001": -0.109042,
+      "v002_argmax_0.50": 0.92053,
+      "delta_v002_argmax_vs_v001": -0.019886
+    },
+    {
+      "metrik": "roc_auc_ovr_macro",
+      "v001_thr_0.19": 0.998439,
+      "v002_thr_0.20": 0.991926,
+      "delta_v002_thr_vs_v001": -0.006513,
+      "v002_argmax_0.50": 0.991926,
+      "delta_v002_argmax_vs_v001": -0.006513
+    },
+    {
+      "metrik": "pr_auc_ap_macro",
+      "v001_thr_0.19": 0.99708,
+      "v002_thr_0.20": 0.984217,
+      "delta_v002_thr_vs_v001": -0.012863,
+      "v002_argmax_0.50": 0.984217,
+      "delta_v002_argmax_vs_v001": -0.012863
+    },
+    {
+      "metrik": "log_loss",
+      "v001_thr_0.19": 0.136163,
+      "v002_thr_0.20": 0.239667,
+      "delta_v002_thr_vs_v001": 0.103504,
+      "v002_argmax_0.50": 0.239667,
+      "delta_v002_argmax_vs_v001": 0.103504
+    },
+    {
+      "metrik": "brier_score_penipuan",
+      "v001_thr_0.19": 0.021461,
+      "v002_thr_0.20": 0.041787,
+      "delta_v002_thr_vs_v001": 0.020326,
+      "v002_argmax_0.50": 0.041787,
+      "delta_v002_argmax_vs_v001": 0.020326
+    },
+    {
+      "metrik": "recall_penipuan",
+      "v001_thr_0.19": 0.978723,
+      "v002_thr_0.20": 1.0,
+      "delta_v002_thr_vs_v001": 0.021277,
+      "v002_argmax_0.50": 1.0,
+      "delta_v002_argmax_vs_v001": 0.021277
+    },
+    {
+      "metrik": "precision_penipuan",
+      "v001_thr_0.19": 0.901961,
+      "v002_thr_0.20": 0.734375,
+      "delta_v002_thr_vs_v001": -0.167586,
+      "v002_argmax_0.50": 0.854545,
+      "delta_v002_argmax_vs_v001": -0.047415
+    },
+    {
+      "metrik": "specificity_penipuan",
+      "v001_thr_0.19": 0.956522,
+      "v002_thr_0.20": 0.852174,
+      "delta_v002_thr_vs_v001": -0.104348,
+      "v002_argmax_0.50": 0.930435,
+      "delta_v002_argmax_vs_v001": -0.026087
+    },
+    {
+      "metrik": "fnr_penipuan",
+      "v001_thr_0.19": 0.021277,
+      "v002_thr_0.20": 0.0,
+      "delta_v002_thr_vs_v001": -0.021277,
+      "v002_argmax_0.50": 0.0,
+      "delta_v002_argmax_vs_v001": -0.021277
+    },
+    {
+      "metrik": "fpr_penipuan",
+      "v001_thr_0.19": 0.043478,
+      "v002_thr_0.20": 0.147826,
+      "delta_v002_thr_vs_v001": 0.104348,
+      "v002_argmax_0.50": 0.069565,
+      "delta_v002_argmax_vs_v001": 0.026087
+    },
+    {
+      "metrik": "f1_penipuan",
+      "v001_thr_0.19": 0.938776,
+      "v002_thr_0.20": 0.846847,
+      "delta_v002_thr_vs_v001": -0.091929,
+      "v002_argmax_0.50": 0.921569,
+      "delta_v002_argmax_vs_v001": -0.017207
+    },
+    {
+      "metrik": "f2_penipuan",
+      "v001_thr_0.19": 0.962343,
+      "v002_thr_0.20": 0.93254,
+      "delta_v002_thr_vs_v001": -0.029803,
+      "v002_argmax_0.50": 0.967078,
+      "delta_v002_argmax_vs_v001": 0.004735
+    }
+  ]
+}

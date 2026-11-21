@@ -1,0 +1,24 @@
+{
+  "version": "v002",
+  "eval_split": "test",
+  "dataset_label": "dataset_sms_spam_v1.csv + SpamDam_twitter_data.csv (36.668 baris)",
+  "model_name": "LogReg_C20",
+  "data_train": "asli",
+  "threshold": 0.2,
+  "n_test": 4892,
+  "n_errors": 39,
+  "metrics_test_threshold": {
+    "accuracy": 0.9920278004905969,
+    "macro_f1": 0.8437583907913483,
+    "recall_penipuan": 0.9956030150753769,
+    "precision_penipuan": 0.9964375523889355,
+    "f1_penipuan": 0.9960201089233347
+  },
+  "metrics_test_argmax": {
+    "accuracy": 0.9897792313982011,
+    "macro_f1": 0.8412904680191694,
+    "recall_penipuan": 0.9914154103852596,
+    "precision_penipuan": 0.9983133038161501,
+    "f1_penipuan": 0.9948524004622334
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "version": "v002",
+  "eval_split": "test set v001 (162 SMS Indonesia)",
+  "dataset_label": "Benchmark Test Set v001 (dataset_sms_spam_v1.csv, 162 SMS)",
+  "model_name": "LogReg_C20",
+  "data_train": "asli",
+  "threshold": 0.2,
+  "n_test": 162,
+  "n_errors": 17,
+  "metrics_test_threshold": {
+    "accuracy": 0.8950617283950617,
+    "macro_f1": 0.8669046662677236,
+    "recall_penipuan": 1.0,
+    "precision_penipuan": 0.734375,
+    "f1_penipuan": 0.8468468468468469
+  },
+  "metrics_test_argmax": {
+    "accuracy": 0.9506172839506173,
+    "macro_f1": 0.9374314779675311,
+    "recall_penipuan": 1.0,
+    "precision_penipuan": 0.8545454545454545,
+    "f1_penipuan": 0.9215686274509803
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "version": "v002",
+    "eval_name": "test gabungan v002 (4.892 pesan)",
+    "dataset_label": "dataset_sms_spam_v1.csv + SpamDam_twitter_data.csv (36.668 baris)",
+    "model_name": "LogReg_C20",
+    "data_train": "asli",
+    "threshold": 0.2,
+    "threshold_criterion": "macro_f1",
+    "rule_override_apk": true,
+    "n_features": 380574,
+    "model_size_kb": 10819.1,
+    "sklearn_version": "1.8.0",
+    "created_at": "2026-11-21T09:38:43",
+    "exported_at": "2026-11-21T09:48:10",
+    "split_counts": {
+      "train": {
+        "total": 25786,
+        "normal": 405,
+        "penipuan": 25213,
+        "promo": 168
+      },
+      "val": {
+        "total": 5158,
+        "normal": 81,
+        "penipuan": 5043,
+        "promo": 34
+      },
+      "train_full": {
+        "total": 30944,
+        "normal": 486,
+        "penipuan": 30256,
+        "promo": 202
+      },
+      "test": {
+        "total": 4892,
+        "normal": 81,
+        "penipuan": 4776,
+        "promo": 35
+      }
+    }
+  },
+  "threshold_strategy": {
+    "global": {
+      "n_samples": 4892,
+      "n_correct": 4853,
+      "n_errors": 39,
+      "error_rate": 0.007972199509403107,
+      "accuracy": 0.9920278004905969,
+      "balanced_accuracy": 0.8541486828616923,
+      "macro_precision": 0.8340713963675571,
+      "macro_recall": 0.8541486828616923,
+      "macro_f1": 0.8437583907913483,
+      "weighted_precision": 0.9922980537277186,
+      "weighted_recall": 0.9920278004905969,
+      "weighted_f1": 0.9921548800000194,
+      "matthews_corrcoef": 0.8316770325265302,
+      "cohen_kappa": 0.8315516236690152,
+      "log_loss": 0.029683102676530484,
+      "brier_score_penipuan": 0.007657705581676833,
+      "roc_auc_ovr_macro": 0.9928799205353811,
+      "roc_auc_ovr_weighted": 0.9923201219233055,
+      "pr_auc_ap_macro": 0.8906123775823991
+    },
+    "fraud_binary": {
+      "tp": 4755,
+      "fp": 17,
+      "tn": 99,
+      "fn": 21,
+      "precision_penipuan": 0.9964375523889355,
+      "recall_penipuan": 0.9956030150753769,
+      "specificity_penipuan": 0.853448275862069,
+      "npv_penipuan": 0.825,
+      "fpr_penipuan": 0.14655172413793102,
+      "fnr_penipuan": 0.0043969849246231155,
+      "f1_penipuan": 0.9960201089233348,
+      "f2_penipuan": 0.9957698106885575,
+      "roc_auc_penipuan": 0.9922962513718017,
+      "pr_auc_penipuan": 0.9997737542726364
+    },
+    "per_class": {
+      "normal": {
+        "class_id": 0,
+        "support": 81,
+        "tp": 76,
+        "fp": 6,
+        "tn": 4805,
+        "fn": 5,
+        "precision": 0.926829268292683,
+        "recall": 0.9382716049382716,
+        "f1": 0.9325153374233128,
+        "f2": 0.9359605911330049,
+        "specificity": 0.9987528580336729,
+        "npv": 0.998960498960499,
+        "fpr": 0.001247141966327167,
+        "fnr": 0.06172839506172839,
+        "roc_auc": 0.9935025443235794,
+        "pr_auc_ap": 0.9730704060802227
+      },
+      "penipuan": {
+        "class_id": 1,
+        "support": 4776,
+        "tp": 4755,
+        "fp": 17,
+        "tn": 99,
+        "fn": 21,
+        "precision": 0.9964375523889355,
+        "recall": 0.9956030150753769,
+        "f1": 0.9960201089233348,
+        "f2": 0.9957698106885575,
+        "specificity": 0.853448275862069,
+        "npv": 0.825,
+        "fpr": 0.14655172413793102,
+        "fnr": 0.0043969849246231155,
+        "roc_auc": 0.9922962513718017,
+        "pr_auc_ap": 0.9997737542726364
+      },
+      "promo": {
+        "class_id": 2,
+        "support": 35,
+        "tp": 22,
+        "fp": 16,
+        "tn": 4841,
+        "fn": 13,
+        "precision": 0.5789473684210527,
+        "recall": 0.6285714285714286,
+        "f1": 0.6027397260273972,
+        "f2": 0.6179775280898876,
+        "specificity": 0.9967057854642783,
+        "npv": 0.9973217964565307,
+        "fpr": 0.0032942145357216387,
+        "fnr": 0.37142857142857144,
+        "roc_auc": 0.9928409659107621,
+        "pr_auc_ap": 0.6989929723943383
+      }
+    },
+    "confusion_matrix_counts": [
+      [
+        76,
+        5,
+        0
+      ],
+      [
+        5,
+        4755,
+        16
+      ],
+      [
+        1,
+        12,
+        22
+      ]
+    ],
+    "confusion_matrix_normalized": [
+      [
+        0.938272,
+        0.061728,
+        0.0
+      ],
+      [
+        0.001047,
+        0.995603,
+        0.00335
+      ],
+      [
+        0.028571,
+        0.342857,
+        0.628571
+      ]
+    ],
+    "labels_order": [
+      "normal",
+      "penipuan",
+      "promo"
+    ]
+  },
+  "argmax_strategy": {
+    "global": {
+      "n_samples": 4892,
+      "n_correct": 4842,
+      "n_errors": 50,
+      "error_rate": 0.010220768601798855,
+      "accuracy": 0.9897792313982011,
+      "balanced_accuracy": 0.9222413507868561,
+      "macro_precision": 0.7831772857584233,
+      "macro_recall": 0.9222413507868561,
+      "macro_f1": 0.8412904680191694,
+      "weighted_precision": 0.9920464339868498,
+      "weighted_recall": 0.9897792313982011,
+      "weighted_f1": 0.9905954367592225,
+      "matthews_corrcoef": 0.8139349508703616,
+      "cohen_kappa": 0.807320406627989,
+      "log_loss": 0.029683102676530484,
+      "brier_score_penipuan": 0.007657705581676833,
+      "roc_auc_ovr_macro": 0.9928799205353811,
+      "roc_auc_ovr_weighted": 0.9923201219233055,
+      "pr_auc_ap_macro": 0.8906123775823991
+    },
+    "fraud_binary": {
+      "tp": 4735,
+      "fp": 8,
+      "tn": 108,
+      "fn": 41,
+      "precision_penipuan": 0.9983133038161501,
+      "recall_penipuan": 0.9914154103852596,
+      "specificity_penipuan": 0.9310344827586207,
+      "npv_penipuan": 0.7248322147651006,
+      "fpr_penipuan": 0.06896551724137931,
+      "fnr_penipuan": 0.008584589614740368,
+      "f1_penipuan": 0.9948524004622334,
+      "f2_penipuan": 0.9927873527068395,
+      "roc_auc_penipuan": 0.9922962513718017,
+      "pr_auc_penipuan": 0.9997737542726364
+    },
+    "per_class": {
+      "normal": {
+        "class_id": 0,
+        "support": 81,
+        "tp": 79,
+        "fp": 17,
+        "tn": 4794,
+        "fn": 2,
+        "precision": 0.8229166666666666,
+        "recall": 0.9753086419753086,
+        "f1": 0.8926553672316384,
+        "f2": 0.9404761904761905,
+        "specificity": 0.9964664310954063,
+        "npv": 0.9995829858215179,
+        "fpr": 0.0035335689045936395,
+        "fnr": 0.024691358024691357,
+        "roc_auc": 0.9935025443235794,
+        "pr_auc_ap": 0.9730704060802227
+      },
+      "penipuan": {
+        "class_id": 1,
+        "support": 4776,
+        "tp": 4735,
+        "fp": 8,
+        "tn": 108,
+        "fn": 41,
+        "precision": 0.9983133038161501,
+        "recall": 0.9914154103852596,
+        "f1": 0.9948524004622334,
+        "f2": 0.9927873527068395,
+        "specificity": 0.9310344827586207,
+        "npv": 0.7248322147651006,
+        "fpr": 0.06896551724137931,
+        "fnr": 0.008584589614740368,
+        "roc_auc": 0.9922962513718017,
+        "pr_auc_ap": 0.9997737542726364
+      },
+      "promo": {
+        "class_id": 2,
+        "support": 35,
+        "tp": 28,
+        "fp": 25,
+        "tn": 4832,
+        "fn": 7,
+        "precision": 0.5283018867924528,
+        "recall": 0.8,
+        "f1": 0.6363636363636364,
+        "f2": 0.7253886010362695,
+        "specificity": 0.9948527897879349,
+        "npv": 0.9985534201281256,
+        "fpr": 0.005147210212065061,
+        "fnr": 0.2,
+        "roc_auc": 0.9928409659107621,
+        "pr_auc_ap": 0.6989929723943383
+      }
+    },
+    "confusion_matrix_counts": [
+      [
+        79,
+        2,
+        0
+      ],
+      [
+        16,
+        4735,
+        25
+      ],
+      [
+        1,
+        6,
+        28
+      ]
+    ],
+    "confusion_matrix_normalized": [
+      [
+        0.975309,
+        0.024691,
+        0.0
+      ],
+      [
+        0.00335,
+        0.991415,
+        0.005235
+      ],
+      [
+        0.028571,
+        0.171429,
+        0.8
+      ]
+    ],
+    "labels_order": [
+      "normal",
+      "penipuan",
+      "promo"
+    ]
+  }
+}

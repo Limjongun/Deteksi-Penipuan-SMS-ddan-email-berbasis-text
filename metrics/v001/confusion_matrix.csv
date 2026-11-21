@@ -1,0 +1,4 @@
+actual,pred_normal,pred_penipuan,pred_promo,pred_normal_pct,pred_penipuan_pct,pred_promo_pct
+normal,79,2,0,97.53,2.47,0.0
+penipuan,1,46,0,2.13,97.87,0.0
+promo,0,3,31,0.0,8.82,91.18

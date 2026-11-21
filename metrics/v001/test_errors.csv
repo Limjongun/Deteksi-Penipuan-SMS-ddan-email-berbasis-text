@@ -1,0 +1,7 @@
+teks,label_name,pred_threshold_name,pred_argmax_name,p_normal,p_penipuan,p_promo
+"Nelpon MURAH hanya Rp 2500/panggilan ke MAL, SIN, Thailand, HK, China & USA dgn tekan 01016+Kode Negara+No Tujuan. Info: www.indosatooredoo.com/flatcall2500",promo,penipuan,penipuan,0.05974067623782416,0.5420166824837452,0.3982426412784307
+Disc.25%  Domino's Pizza Value Range s/d 14 Agustus.Kunjungi store terdekat/hubungi 1500366/visit http://bit.ly/294KoZ6 Kode:VR25D,promo,penipuan,promo,0.030548350524766718,0.47397747006254926,0.49547417941268407
+"Info Gempa Mag:5.3 SR, 21-Jun-16 21:10:23 WIB, Lok:2.21 LS,99.33 BT (98 km Tenggara KEP-MENTAWAI-SUMBAR), Kedlmn:34 Km ::BMKG",normal,penipuan,penipuan,0.16448382424775837,0.45934257300652176,0.3761736027457198
+"I’m spreading the GO-JEK love. Download the GO-JEK app at “http://go-jek.com/app” and input this referral code “545075264” to get Rp 50,000 free credit to your first booking. #gojekgotmehere",promo,penipuan,promo,0.05296779065223075,0.2321004605142664,0.714931748833503
+Mba mau kirim 300 ya,normal,penipuan,normal,0.6747968407547663,0.19775574586272832,0.12744741338250531
+Permintaan Anda akan segera kami proses untuk keyword REG GITA dari layanan PT. Hypermind,penipuan,normal,normal,0.7840047103232567,0.13420330428349742,0.08179198539324589

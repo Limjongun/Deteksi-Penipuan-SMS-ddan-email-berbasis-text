@@ -1,0 +1,21 @@
+# Python cache & environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Jupyter & IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional heavy Transformer checkpoints
+models/indobert/
+models/*/indobert/
